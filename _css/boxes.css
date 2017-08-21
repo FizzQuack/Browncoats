@@ -1,0 +1,59 @@
+
+
+.container {
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
+    margin:0 auto;
+}
+
+.bkg{
+z-index: -1;
+position: fixed;
+top: 0;
+width: inherit;
+height:auto;
+overflow:hidden;
+}
+
+/* ____________ Begin NAV _________________ */
+
+.navBox{
+    width:800px;
+    position:fixed;
+	top:300px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.nav ul{
+
+
+}
+
+.nav ul, li, a{
+	text-decoration:none;
+	display:inline-block;
+	list-style: none;
+	color:red;
+	transition: color 0.15s ease;
+
+}
+
+.nav a:link {
+    text-align:center;
+    background-color:pink;
+    border-radius: 20px;
+	text-decoration: none;
+	font-size:28px;
+    line-height:97%;
+    font-family: 'Anton', sans-serif;
+    vertical-align:top;
+    padding: 4px 8px;
+    margin-right:4px;
+}
+
+.nav a:hover, a:active, a:focus {
+	color: orange;
+}

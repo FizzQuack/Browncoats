@@ -1,0 +1,19 @@
+{
+  "name": "browncoats",
+  "version": "1.0.0",
+  "description": "Browncoats Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FizzQuack/Browncoats.git"
+  },
+  "author": "FizzQuack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FizzQuack/Browncoats/issues"
+  },
+  "homepage": "https://github.com/FizzQuack/Browncoats#readme"
+}
