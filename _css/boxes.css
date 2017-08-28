@@ -1,6 +1,6 @@
 
 
-/* ____________ Begin MAIN BODY_________________ */
+/* ____________ Boxes TOP_________________ */
 
 .container {
     width: 850px;
@@ -12,13 +12,22 @@
 
 }
 
+/*
+
+.imgBox{
+    border:1px solid red;
+    width:850px;
+    height:160px;
+}
+*/
 
 
 .buy{
-    width:500px;
-    height:160px;
-    margin-left:340px;
 
+    width:290px;
+    height:160px;
+
+    margin-left:360px;
     background-image: url("../_img/buyNow.png");
     background-repeat: no-repeat;
     background-size: 285px;
@@ -28,10 +37,27 @@
 .buy:hover{
     background-size: 300px;
 }
+/*
+.plane{
+    border:1px solid red;
+    width:200px;
+    height:90px;
+z-index: 4;
+    float:left;
 
+    background-image: url("../_img/plane.png");
+    background-repeat: no-repeat;
+    background-size: 185px;
+    transition: background-size 0.125s ease-out;
+}
+
+.plane:hover{
+    background-size: 200px;
+}
+*/
 /* ____________ Begin NAV _________________ */
 
-.navBox{
+.navHome{
     width:850px;
 	margin: 0 auto;
     padding-top:160px;
@@ -76,4 +102,31 @@ li a:hover{
 	color:#71290f;
      border:2px solid red;
      background-color: #c46c01;
+}
+
+
+/* ___________  Boxes BOTTOM ____________  */
+
+.video{
+    /*  background-color: #3e647e;  */
+    width:430px;
+    height:240px;
+    margin-top:240px;
+    margin-left:30px;
+        box-shadow: 0 4px 8px -1px black;
+
+}
+
+.mudder{
+    width:430px;
+    height:150px;
+
+    background-image: url("../_img/mudder.png");
+    background-repeat: no-repeat;
+    background-size: 320px;
+    transition: background-size 0.125s ease-out;
+}
+
+.mudder:hover{
+    background-size: 340px;
 }
