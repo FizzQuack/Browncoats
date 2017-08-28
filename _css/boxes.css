@@ -5,88 +5,74 @@
 .container {
     width: 850px;
     height: 850px;
-    overflow: hidden;
     margin:0 auto;
+    background-image: url("../_img/bkg_2.jpg");
+    background-size: 850px 850px;
+    background-repeat: no-repeat;
+
 }
 
-.bkg{
-z-index: -1;
-position: fixed;
-top: 0;
-width: inherit;
-height:auto;
-overflow:hidden;
+
+
+.buy{
+    width:500px;
+    height:160px;
+    margin-left:340px;
+
+    background-image: url("../_img/buyNow.png");
+    background-repeat: no-repeat;
+    background-size: 285px;
+    transition: background-size 0.125s ease-out;
 }
 
-.buy  {
-    z-index: 3;
-    position:relative;
-    top:-15px;
-    left:320px;
-    width:265px;
-    transition: width .125s;
+.buy:hover{
+    background-size: 300px;
 }
-
-.buy:hover, :active, :focus {
-        width:290px;
- }
-
- .plane  {
-     z-index: 2;
-     position:relative;
-     top:0px;
-     left:280px;
-     width:280px;
-     transition: width .125s;
- }
-
- .plane:hover, :active, :focus {
-         width:220px;
-  }
 
 /* ____________ Begin NAV _________________ */
 
 .navBox{
     width:850px;
-    position:fixed;
-	top:310px;
+	margin: 0 auto;
+    padding-top:160px;
+    position:absolute;
 }
 
-.nav ul{
+ ul{
+
+ 	list-style: none;
+ 	transition: color 0.15s ease;
 }
 
-.nav ul, li, a{
-	text-decoration:none;
-	display:inline-block;
-	list-style: none;
-	transition: color 0.15s ease;
+li{
+    float:left;
 }
 
-.nav a {
+li a {
+    text-decoration:none;
+    display:inline-block;
+    vertical-align:top;
     border:2px solid green;
+    border-radius: 18px;
     box-shadow: inset 0 0 1px 1px #f7d56e;
     box-shadow: 0 4px 8px -1px black;
     color:#4d1c0a;
-}
 
-.nav a:link {
+    font-size:29px;
+    line-height:98%;
+    font-family: 'Anton', sans-serif;
+    padding: 5px 9px;
+    margin: 0px 3px;
+
     text-align:center;
     background: #d6a30d; /* Old browsers */
     background: -moz-linear-gradient(top, #d6a30d 0%, #c46c01 47%, #804000 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #d6a30d 0%,#c46c01 47%,#804000 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #d6a30d 0%,#c46c01 47%,#804000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6a30d', endColorstr='#613000',GradientType=0 ); /* IE6-9 */
-    border-radius: 18px;
-	text-decoration: none;
-	font-size:29px;
-    line-height:98%;
-    font-family: 'Anton', sans-serif;
-    vertical-align:top;
-    padding: 5px 9px;
-    margin-right:2px;
 }
 
-.nav a:hover, a:active, a:focus {
+li a:hover{
 	color:#71290f;
      border:2px solid red;
      background-color: #c46c01;
