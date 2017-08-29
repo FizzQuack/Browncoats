@@ -1,0 +1,29 @@
+.headline{
+    color:#fe981b;
+    font-family: 'Anton', sans-serif;
+    font-size:45px;
+    text-shadow:2px 3px 6px rgba(128, 64, 0, 4);
+
+}
+
+.divPic{
+
+    max-width:580px;
+    padding-top:120px;
+    margin-left:220px;
+}
+
+.divTxt{
+    color:#436d89;
+    font-family: 'Hind', sans-serif;
+}
+
+.divTxt a{
+    color:#98b8cd;
+    text-decoration: none;
+}
+
+.divTxt a:hover{
+    color:orange;
+    text-decoration: none;
+}

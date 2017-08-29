@@ -1,0 +1,12 @@
+.container{
+    width: 850px;
+    height: 850px;
+    margin:0 auto;
+    background-image: url("../_img/bio.jpg");
+    background-size: 850px 850px;
+    background-repeat: no-repeat;
+}
+
+html{
+    background-color: silver;
+}
